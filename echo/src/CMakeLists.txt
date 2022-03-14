@@ -21,12 +21,11 @@
 # SOFTWARE.
 
 cmake_minimum_required(VERSION 3.12)
-project(echo-dev
+project(echo
+  VERSION 0.1.0
   LANGUAGES CXX
 )
 
-# echo library
-add_subdirectory(src)
-
-# usage examples
-add_subdirectory(example)
+# build definition
+add_subdirectory(protocol)
+add_subdirectory(server)
