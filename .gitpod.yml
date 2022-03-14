@@ -1,0 +1,12 @@
+image: trainiteu/gitpod-cpp
+
+# --------------------------------------------------------
+# some useful extensions to have
+vscode:
+  extensions:
+    - twxs.cmake
+    - ms-vscode.cmake-tools
+    - streetsidesoftware.code-spell-checker
+    - vivaxy.vscode-conventional-commits
+    - hbenl.vscode-test-explorer
+    - matepek.vscode-catch2-test-adapter
